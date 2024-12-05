@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="Command line test 76bb526c-2159-486e-9563-500169b377e9(failed)" preserve-order="true">
+    <classes>
+      <class name="org.testing.testScripts.TC4">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="bowserclose"/>
+          <include name="like"/>
+        </methods>
+      </class>
+      <class name="org.testing.testScripts.TC7">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="bowserclose"/>
+        </methods>
+      </class>
+      <class name="org.testing.testScripts.TC2">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="bowserclose"/>
+          <include name="history"/>
+        </methods>
+      </class>
+      <class name="org.testing.testScripts.TC3">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="bowserclose"/>
+          <include name="subscription"/>
+        </methods>
+      </class>
+      <class name="org.testing.testScripts.TC8">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="bowserclose"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
